@@ -84,13 +84,7 @@
     color: #fff;
     text-decoration: none;
     gap: 50px;
-    padding: 20px 20px;
-    
-
-  
-   
-   
-   
+    padding: 20px 20px;   
 
 }
  
@@ -106,6 +100,11 @@ header {
     background-color: #f5f1f4;
     color: #141414;
     
+}
+
+.header-h1 {
+    padding: 50px;
+    font-size: xx-large;
 }
 
 
@@ -139,19 +138,38 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    height: 300px;
-    font-size: larger;
-    margin: 30px;
-
+    padding: 80px;
+    gap: 30px;
+   
+    
+   
    
 }
 
+.footer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 238, 236);
+    color: #000;
+    padding-left: 30px;
+    height: 200px;
 
-footer {
-    background-color: #814271;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
+   
 
 }
+
+.footer-link{
+  display: block;  
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 800px;   
+
+}
+
+.footer-h4 {
+  margin-top: 0%;
+
+}
+
